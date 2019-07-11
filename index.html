@@ -1,40 +1,43 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Roboto|Courgette|Pacifico:400,700" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="style.css">
-<title>Bootstrap Start Free Trail Sign up Form</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Courgette|Pacifico:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Bootstrap Start Free Trail Sign up Form</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-<div class="signup-form">
-    <form onsubmit="return calc()">
-		<div class="form-header">
-			<h2>Ezwich calculator</h2>
-			<p id="head">Input your balance to see your fee and total amount you can withdraw</p>
-		</div>			
-        <div class="form-group">
-			<label>Balance:</label>
-        	<input id="balance" value=0 type="number" class="form-control" name="Balance" required="required">
-        </div>
-        <div class="form-group">
-			<label>Amount you want to leave on card (optional):</label>
-        	<input id="remain" value=0 type="number" class="form-control" name="Remain">
-        </div>
-        <div class="form-group">
-			<label>fee:</label>
-        	<p id="fee"> ... </p>
-        </div>
-		<div class="form-group">
-			<label>You can withdraw:</label>
-			<button id="calcbtn" type="submit" class="btn btn-primary btn-block btn-lg">Calculate</button>
-		</div>
-    </form>
-    <script src="script.js"></script> 
+	<div class="signup-form">
+		<form onsubmit="return calc()">
+			<div class="form-header">
+				<h2>Ezwich calculator</h2>
+				<p id="head">Input your balance to see your fee and total amount you can withdraw</p>
+			</div>
+			<div class="form-group">
+				<label>Balance:</label>
+				<input id="balance" value=0 type="number" class="form-control" name="Balance" required="required">
+			</div>
+			<div class="form-group">
+				<label>Amount you want to leave on card (optional):</label>
+				<input id="remain" value=0 type="number" class="form-control" name="Remain">
+			</div>
+			<div class="form-group">
+				<label>fee:</label>
+				<p id="fee"> ... </p>
+			</div>
+			<div class="form-group">
+				<label>You can withdraw:</label>
+				<button id="calcbtn" type="submit" class="btn btn-primary btn-block btn-lg">Calculate</button>
+			</div>
+		</form>
+		<script src="script.js"></script>
 </body>
-</html>   
+
+</html>
